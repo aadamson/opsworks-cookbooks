@@ -1,0 +1,3 @@
+[submodule "frt-opsworks-cookbooks"]
+	path = frt-opsworks-cookbooks
+	url = git@github.com:freerunningtech/frt-opsworks-cookbooks.git
