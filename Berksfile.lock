@@ -1,0 +1,7 @@
+DEPENDENCIES
+  opsworks_sidekiq
+    git: git://github.com/aadamson/opsworks_sidekiq.git
+    revision: cbaa9aa486667f8a7fe4c2e6e967ded53f33ee09
+
+GRAPH
+  opsworks_sidekiq (0.0.0)
