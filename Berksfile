@@ -15,4 +15,3 @@ cookbook 'mysql', github: 'aadamson/opsworks-cookbooks', branch: 'release-chef-1
 cookbook 'dependencies', github: 'aadamson/opsworks-cookbooks', branch: 'release-chef-11.10', rel: 'dependencies'
 cookbook 'opsworks_ganglia', github: 'aadamson/opsworks-cookbooks', branch: 'release-chef-11.10', rel: 'opsworks_ganglia'
 cookbook 'opsworks_sidekiq', '>= 0.0.0', github: 'aadamson/opsworks_sidekiq'
-cookbook 'monit', github: 'aadamson/opsworks-cookbooks', branch: 'release-chef-11.10', rel: 'monit'
