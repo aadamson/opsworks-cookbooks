@@ -7,6 +7,9 @@
   username: <%= @database[:username].to_s.inspect %>
   password: <%= @database[:password].to_s.inspect %>
   reconnect: <%= @database[:reconnect] ? 'true' : 'false' %>
+<% if @database[:collation] -%>
+  collation: <%= @database[:collation].to_s.inspect %>
+<% end -%>
 <% if @database[:pool] -%>
   pool: <%= @database[:pool].to_i.inspect %>
 <% end -%>
